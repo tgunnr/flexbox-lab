@@ -11,6 +11,9 @@
   nav {
     background-color: white;
     padding: 8px 16px;
+    display: flex;
+    align-content: center;
+    
   }
   
   p {
@@ -60,6 +63,7 @@
     border: 0;
     color: #ffffff;
     font-weight: 500;
+    display: flex;
   }
   
   .img-placeholder {
@@ -96,3 +100,18 @@
     padding: 6px 15px;
   }
   
+  #destinations {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-content: center;
+    gap: 15px;
+  }
+
+  #actions {
+    gap: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-left: auto;
+  }

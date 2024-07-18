@@ -84,6 +84,18 @@
   #subnav {
     padding: 32px 72px 0;
     background-color: white;
+    display: flex;
+    flex-direction: row;
+  }
+
+  #filter {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+  }
+
+  #sort {
+    display: flex;
   }
   
   #subnav button {
